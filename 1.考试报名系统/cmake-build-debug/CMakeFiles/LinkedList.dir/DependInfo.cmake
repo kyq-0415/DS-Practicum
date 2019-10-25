@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/1.考试报名系统/src/LinkedList.cpp" "/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/1.考试报名系统/cmake-build-debug/CMakeFiles/LinkedList.dir/src/LinkedList.cpp.o"
+  "/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/1.考试报名系统/src/ljj_LinkedList.cpp" "/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/1.考试报名系统/cmake-build-debug/CMakeFiles/LinkedList.dir/src/ljj_LinkedList.cpp.o"
   "/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/1.考试报名系统/src/main.cpp" "/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/1.考试报名系统/cmake-build-debug/CMakeFiles/LinkedList.dir/src/main.cpp.o"
   "/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/1.考试报名系统/src/utils.cpp" "/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/1.考试报名系统/cmake-build-debug/CMakeFiles/LinkedList.dir/src/utils.cpp.o"
   )

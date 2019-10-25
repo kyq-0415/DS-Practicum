@@ -1,6 +1,6 @@
 #include<utils.h>
 #include<string>
-#include"../include/LinkedList.h"
+#include"../include/ljj_LinkedList.h"
 using namespace std;
 
 class datanode{
@@ -11,6 +11,7 @@ public:
 
     int pdata() {
         cout << id << " " << name << " " << gender << " " << age << " " << cat << endl;
+        return 0;
     }
 };
 

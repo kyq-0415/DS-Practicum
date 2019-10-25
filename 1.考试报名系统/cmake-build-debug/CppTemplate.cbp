@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/1.考试报名系统/src/LinkedList.cpp">
+		<Unit filename="/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/1.考试报名系统/src/ljj_LinkedList.cpp">
 			<Option target="LinkedList"/>
 		</Unit>
 		<Unit filename="/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/1.考试报名系统/src/main.cpp">

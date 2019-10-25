@@ -57,18 +57,18 @@ include CMakeFiles/LinkedList.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LinkedList.dir/flags.make
 
-CMakeFiles/LinkedList.dir/src/LinkedList.cpp.o: CMakeFiles/LinkedList.dir/flags.make
-CMakeFiles/LinkedList.dir/src/LinkedList.cpp.o: ../src/LinkedList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/1.考试报名系统/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LinkedList.dir/src/LinkedList.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LinkedList.dir/src/LinkedList.cpp.o -c "/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/1.考试报名系统/src/LinkedList.cpp"
+CMakeFiles/LinkedList.dir/src/ljj_LinkedList.cpp.o: CMakeFiles/LinkedList.dir/flags.make
+CMakeFiles/LinkedList.dir/src/ljj_LinkedList.cpp.o: ../src/ljj_LinkedList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/1.考试报名系统/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LinkedList.dir/src/ljj_LinkedList.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LinkedList.dir/src/ljj_LinkedList.cpp.o -c "/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/1.考试报名系统/src/ljj_LinkedList.cpp"
 
-CMakeFiles/LinkedList.dir/src/LinkedList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkedList.dir/src/LinkedList.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/1.考试报名系统/src/LinkedList.cpp" > CMakeFiles/LinkedList.dir/src/LinkedList.cpp.i
+CMakeFiles/LinkedList.dir/src/ljj_LinkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkedList.dir/src/ljj_LinkedList.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/1.考试报名系统/src/ljj_LinkedList.cpp" > CMakeFiles/LinkedList.dir/src/ljj_LinkedList.cpp.i
 
-CMakeFiles/LinkedList.dir/src/LinkedList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkedList.dir/src/LinkedList.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/1.考试报名系统/src/LinkedList.cpp" -o CMakeFiles/LinkedList.dir/src/LinkedList.cpp.s
+CMakeFiles/LinkedList.dir/src/ljj_LinkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkedList.dir/src/ljj_LinkedList.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/1.考试报名系统/src/ljj_LinkedList.cpp" -o CMakeFiles/LinkedList.dir/src/ljj_LinkedList.cpp.s
 
 CMakeFiles/LinkedList.dir/src/main.cpp.o: CMakeFiles/LinkedList.dir/flags.make
 CMakeFiles/LinkedList.dir/src/main.cpp.o: ../src/main.cpp
@@ -98,14 +98,14 @@ CMakeFiles/LinkedList.dir/src/utils.cpp.s: cmake_force
 
 # Object files for target LinkedList
 LinkedList_OBJECTS = \
-"CMakeFiles/LinkedList.dir/src/LinkedList.cpp.o" \
+"CMakeFiles/LinkedList.dir/src/ljj_LinkedList.cpp.o" \
 "CMakeFiles/LinkedList.dir/src/main.cpp.o" \
 "CMakeFiles/LinkedList.dir/src/utils.cpp.o"
 
 # External object files for target LinkedList
 LinkedList_EXTERNAL_OBJECTS =
 
-../bin/LinkedList: CMakeFiles/LinkedList.dir/src/LinkedList.cpp.o
+../bin/LinkedList: CMakeFiles/LinkedList.dir/src/ljj_LinkedList.cpp.o
 ../bin/LinkedList: CMakeFiles/LinkedList.dir/src/main.cpp.o
 ../bin/LinkedList: CMakeFiles/LinkedList.dir/src/utils.cpp.o
 ../bin/LinkedList: CMakeFiles/LinkedList.dir/build.make

@@ -54,8 +54,10 @@ private:
     }
     link_type loc_by_id(int id){
         auto temp = hnode->next;
-        while (temp!=hnode)
+        while (temp!=hnode) {
             if (temp->data.id==id) return temp;
+            temp=temp->next;
+        }
         return NULL;
     }
 
@@ -69,8 +71,11 @@ public:
     bool isEmpty() {return hnode==hnode->next;}
 
     int del(int pos);
+    int find_by_id(int id);
+    int del_by_id(int id);
     int insert(int pos, const T &x);
     int modify(int pos, const T &x);
+    int modify_by_id(int id, const T &x);
 
     int len;
     link_type hnode; //head node
@@ -102,6 +107,17 @@ int list <T>::del(int pos) {
 }
 
 template <class T>
+int list <T>::del_by_id(int id) {
+    link_type p = loc_by_id(id);
+    if (p==NULL) {
+        std::cout << "Error: ID not Found!" << std::endl;
+        return 1;
+    }
+    __del(p);
+    return 0;
+}
+
+template <class T>
 int list <T>::insert(int pos, const T &x) {
     link_type p = loc(pos);
     if (p==NULL) {
@@ -120,6 +136,28 @@ int list <T>::modify(int pos, const T &x) {
         return 1;
     }
     p->data=x;
+    return 0;
+}
+
+template <class T>
+int list <T>::modify_by_id(int id, const T &x) {
+    link_type p = loc_by_id(id);
+    if (p==NULL) {
+        std::cout << "Error: ID not Found!" << std::endl;
+        return 1;
+    }
+    p->data=x;
+    return 0;
+}
+
+template <class T>
+int list <T>::find_by_id(int id) {
+    link_type p = loc_by_id(id);
+    if (p==NULL) {
+        std::cout << "Error: ID not Found!" << std::endl;
+        return 1;
+    }
+    p->data.pdata();
     return 0;
 }
 

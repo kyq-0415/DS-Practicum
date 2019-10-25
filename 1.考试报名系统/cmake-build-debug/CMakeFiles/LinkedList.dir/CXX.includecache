@@ -10,19 +10,15 @@
 iostream
 -
 
-/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/1.考试报名系统/include/LinkedList.h
+/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/1.考试报名系统/include/ljj_LinkedList.h
 iostream
 -
-
-/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/1.考试报名系统/src/LinkedList.cpp
-../include/LinkedList.h
-/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/1.考试报名系统/include/LinkedList.h
 
 /Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/1.考试报名系统/src/main.cpp
 utils.h
 -
 string
 -
-../include/LinkedList.h
-/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/1.考试报名系统/include/LinkedList.h
+../include/ljj_LinkedList.h
+/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/1.考试报名系统/include/ljj_LinkedList.h
 

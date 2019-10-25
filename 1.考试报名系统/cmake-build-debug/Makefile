@@ -123,32 +123,32 @@ LinkedList/fast:
 	$(MAKE) -f CMakeFiles/LinkedList.dir/build.make CMakeFiles/LinkedList.dir/build
 .PHONY : LinkedList/fast
 
-src/LinkedList.o: src/LinkedList.cpp.o
+src/ljj_LinkedList.o: src/ljj_LinkedList.cpp.o
 
-.PHONY : src/LinkedList.o
+.PHONY : src/ljj_LinkedList.o
 
 # target to build an object file
-src/LinkedList.cpp.o:
-	$(MAKE) -f CMakeFiles/LinkedList.dir/build.make CMakeFiles/LinkedList.dir/src/LinkedList.cpp.o
-.PHONY : src/LinkedList.cpp.o
+src/ljj_LinkedList.cpp.o:
+	$(MAKE) -f CMakeFiles/LinkedList.dir/build.make CMakeFiles/LinkedList.dir/src/ljj_LinkedList.cpp.o
+.PHONY : src/ljj_LinkedList.cpp.o
 
-src/LinkedList.i: src/LinkedList.cpp.i
+src/ljj_LinkedList.i: src/ljj_LinkedList.cpp.i
 
-.PHONY : src/LinkedList.i
+.PHONY : src/ljj_LinkedList.i
 
 # target to preprocess a source file
-src/LinkedList.cpp.i:
-	$(MAKE) -f CMakeFiles/LinkedList.dir/build.make CMakeFiles/LinkedList.dir/src/LinkedList.cpp.i
-.PHONY : src/LinkedList.cpp.i
+src/ljj_LinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles/LinkedList.dir/build.make CMakeFiles/LinkedList.dir/src/ljj_LinkedList.cpp.i
+.PHONY : src/ljj_LinkedList.cpp.i
 
-src/LinkedList.s: src/LinkedList.cpp.s
+src/ljj_LinkedList.s: src/ljj_LinkedList.cpp.s
 
-.PHONY : src/LinkedList.s
+.PHONY : src/ljj_LinkedList.s
 
 # target to generate assembly for a file
-src/LinkedList.cpp.s:
-	$(MAKE) -f CMakeFiles/LinkedList.dir/build.make CMakeFiles/LinkedList.dir/src/LinkedList.cpp.s
-.PHONY : src/LinkedList.cpp.s
+src/ljj_LinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles/LinkedList.dir/build.make CMakeFiles/LinkedList.dir/src/ljj_LinkedList.cpp.s
+.PHONY : src/ljj_LinkedList.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -213,9 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... LinkedList"
-	@echo "... src/LinkedList.o"
-	@echo "... src/LinkedList.i"
-	@echo "... src/LinkedList.s"
+	@echo "... src/ljj_LinkedList.o"
+	@echo "... src/ljj_LinkedList.i"
+	@echo "... src/ljj_LinkedList.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/utils.h
+iostream
+-
+
+/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/2.两个有序链表序列的交集/include/ljj_LinkedList.h
+iostream
+-
+
+/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/2.两个有序链表序列的交集/src/ljj_LinkedList.cpp
+../include/ljj_LinkedList.h
+/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/2.两个有序链表序列的交集/include/ljj_LinkedList.h
+
+/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/2.两个有序链表序列的交集/src/main.cpp
+utils.h
+-
+string
+-
+../include/ljj_LinkedList.h
+/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/2.两个有序链表序列的交集/include/ljj_LinkedList.h
+

@@ -35,7 +35,9 @@ int main(){
     list<datanode> info_list;
     datanode temp;
     int init_num;
+    cout << "首先请建立考生信息系统！" << endl << "请输入考生人数：";
     cin >> init_num;
+    cout << "请依次输入考生的考号，姓名，性别，年龄及报考类别！" << endl;
     for (int i=0;i<init_num;++i) {
         temp=get_info();
         if (temp.avail) info_list.push_back(temp);
@@ -45,11 +47,15 @@ int main(){
 
     int op;
     while (true) {
+        cout << "请选择您要进行的操作（1为插入，2为删除，3为查找，4为修改，5为统计，0为取消操作）" << endl
+        << "请选择您要进行的操作:";
         cin >> op;
         if (op>5 || op==0) continue;
         if (op==1) {
             int pos;
+            cout<<"请输入您要插入的考生的位置：";
             cin >> pos;
+            cout << "请依次输入插入考生的考号，姓名，性别，年龄及报考类别！" << endl;
             temp=get_info();
             if (temp.avail) info_list.insert(pos-2,temp);
             else return 0;
@@ -57,17 +63,21 @@ int main(){
         }
         if (op==2) {
             int id;
+            cout<<"请输入要删除的考生的考号：";
             cin >> id;
             info_list.del_by_id(id);
         }
         if (op==3) {
             int id;
+            cout<<"请输入要查找的考生的考号：";
             cin >> id;
             info_list.find_by_id(id);
         }
         if (op==4) {
             int id;
+            cout<<"请输入要修改的考生的考号：";
             cin >> id;
+            cout << "请依次输入修改考生的考号，姓名，性别，年龄及报考类别！" << endl;
             temp = get_info();
             info_list.modify_by_id(id, temp);
         }

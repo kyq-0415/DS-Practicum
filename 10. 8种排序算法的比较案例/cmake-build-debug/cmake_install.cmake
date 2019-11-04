@@ -1,4 +1,4 @@
-# Install script for directory: /Users/apple/Downloads/DS-curriculum-design-master/10. 8种排序算法的比较案例
+# Install script for directory: /Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/10. 8种排序算法的比较案例
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/apple/Downloads/DS-curriculum-design-master/10. 8种排序算法的比较案例/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/10. 8种排序算法的比较案例/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

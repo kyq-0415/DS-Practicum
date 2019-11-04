@@ -1,6 +1,5 @@
 #pragma once
 #include <iostream>
-//#include <vector>
 #include "../include/ljj_Vector.h"
 using namespace std;
 
@@ -124,7 +123,7 @@ int Msort(Vector<long>& v, int L, int R){
     count+=Msort(v,L,mid);
     count+=Msort(v,mid+1,R);
     int p1=L, p2=mid+1;
-    vector<long> temp;
+    Vector<long> temp;
     while (p1<=mid && p2<=R) temp.push_back(v[p1]<v[p2]?v[p1++]:v[p2++]),++count;
     while (p1<=mid) temp.push_back(v[p1++]),++count;
     while (p2<=R) temp.push_back(v[p2++]),++count;

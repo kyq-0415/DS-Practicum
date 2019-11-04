@@ -14,11 +14,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dd2a84e1-0887-4fc7-976d-098bcac5fbb6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/LinkedList" beforeDir="false" afterPath="$PROJECT_DIR$/bin/LinkedList" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinkedList.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinkedList.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinkedList.dir/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinkedList.dir/src/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ljj_LinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/ljj_LinkedList.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +88,7 @@
       <updated>1571916299955</updated>
       <workItem from="1571916301111" duration="15475000" />
       <workItem from="1572004368082" duration="1254000" />
-      <workItem from="1572571791173" duration="648000" />
+      <workItem from="1572571791173" duration="929000" />
     </task>
     <servers />
   </component>

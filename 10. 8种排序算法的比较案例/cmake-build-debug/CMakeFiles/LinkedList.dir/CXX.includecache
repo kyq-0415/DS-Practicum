@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/utils.h
+iostream
+-
+
+/Users/apple/Downloads/DS-curriculum-design-master/10. 8种排序算法的比较案例/include/ljj_Sort.h
+iostream
+-
+../include/ljj_Vector.h
+/Users/apple/Downloads/DS-curriculum-design-master/10. 8种排序算法的比较案例/include/ljj_Vector.h
+
+/Users/apple/Downloads/DS-curriculum-design-master/10. 8种排序算法的比较案例/include/ljj_Vector.h
+iostream
+-
+
+/Users/apple/Downloads/DS-curriculum-design-master/10. 8种排序算法的比较案例/src/main.cpp
+utils.h
+-
+random
+-
+algorithm
+-
+iomanip
+-
+../include/ljj_Vector.h
+/Users/apple/Downloads/DS-curriculum-design-master/10. 8种排序算法的比较案例/include/ljj_Vector.h
+../include/ljj_Sort.h
+/Users/apple/Downloads/DS-curriculum-design-master/10. 8种排序算法的比较案例/include/ljj_Sort.h
+

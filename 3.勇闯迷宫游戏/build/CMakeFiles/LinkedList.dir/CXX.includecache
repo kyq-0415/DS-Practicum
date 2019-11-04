@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/utils.h
+iostream
+-
+
+/Users/jajamoa/Desktop/ds project/1.考试报名系统/include/LinkedList.h
+
+/Users/jajamoa/Desktop/ds project/1.考试报名系统/src/LinkedList.cpp
+../include/LinkedList.h
+/Users/jajamoa/Desktop/ds project/1.考试报名系统/include/LinkedList.h
+iostream
+-
+
+/Users/jajamoa/Desktop/ds project/1.考试报名系统/src/main.cpp
+utils.h
+-
+../include/LinkedList.h
+/Users/jajamoa/Desktop/ds project/1.考试报名系统/include/LinkedList.h
+

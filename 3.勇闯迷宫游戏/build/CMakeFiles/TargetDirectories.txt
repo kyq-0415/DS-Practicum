@@ -1,0 +1,3 @@
+/Users/jajamoa/Desktop/ds project/1.考试报名系统/build/CMakeFiles/rebuild_cache.dir
+/Users/jajamoa/Desktop/ds project/1.考试报名系统/build/CMakeFiles/edit_cache.dir
+/Users/jajamoa/Desktop/ds project/1.考试报名系统/build/CMakeFiles/LinkedList.dir

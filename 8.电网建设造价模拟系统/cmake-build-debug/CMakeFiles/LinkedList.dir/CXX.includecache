@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/7.修理牧场/include/ljj_Heap.h
+iostream
+-
+../include/ljj_Vector.h
+/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/7.修理牧场/include/ljj_Vector.h
+
+/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/7.修理牧场/include/ljj_Vector.h
+iostream
+-
+
+/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/7.修理牧场/src/main.cpp
+iomanip
+-
+../include/ljj_Vector.h
+/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/7.修理牧场/include/ljj_Vector.h
+../include/ljj_Heap.h
+/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/7.修理牧场/include/ljj_Heap.h
+

@@ -4,10 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/apple/Downloads/DS-curriculum-design-master/4.算数表达式求解/src/ljj_LinkedList.cpp" "/Users/apple/Downloads/DS-curriculum-design-master/4.算数表达式求解/cmake-build-debug/CMakeFiles/LinkedList.dir/src/ljj_LinkedList.cpp.o"
-  "/Users/apple/Downloads/DS-curriculum-design-master/4.算数表达式求解/src/ljj_Stack.cpp" "/Users/apple/Downloads/DS-curriculum-design-master/4.算数表达式求解/cmake-build-debug/CMakeFiles/LinkedList.dir/src/ljj_Stack.cpp.o"
-  "/Users/apple/Downloads/DS-curriculum-design-master/4.算数表达式求解/src/main.cpp" "/Users/apple/Downloads/DS-curriculum-design-master/4.算数表达式求解/cmake-build-debug/CMakeFiles/LinkedList.dir/src/main.cpp.o"
-  "/Users/apple/Downloads/DS-curriculum-design-master/4.算数表达式求解/src/utils.cpp" "/Users/apple/Downloads/DS-curriculum-design-master/4.算数表达式求解/cmake-build-debug/CMakeFiles/LinkedList.dir/src/utils.cpp.o"
+  "/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/4.算数表达式求解/src/ljj_LinkedList.cpp" "/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/4.算数表达式求解/cmake-build-debug/CMakeFiles/LinkedList.dir/src/ljj_LinkedList.cpp.o"
+  "/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/4.算数表达式求解/src/ljj_Queue.cpp" "/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/4.算数表达式求解/cmake-build-debug/CMakeFiles/LinkedList.dir/src/ljj_Queue.cpp.o"
+  "/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/4.算数表达式求解/src/ljj_Stack.cpp" "/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/4.算数表达式求解/cmake-build-debug/CMakeFiles/LinkedList.dir/src/ljj_Stack.cpp.o"
+  "/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/4.算数表达式求解/src/main.cpp" "/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/4.算数表达式求解/cmake-build-debug/CMakeFiles/LinkedList.dir/src/main.cpp.o"
+  "/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/4.算数表达式求解/src/utils.cpp" "/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/4.算数表达式求解/cmake-build-debug/CMakeFiles/LinkedList.dir/src/utils.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

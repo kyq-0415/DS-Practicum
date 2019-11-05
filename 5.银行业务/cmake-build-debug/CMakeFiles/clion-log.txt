@@ -1,6 +1,6 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/apple/Downloads/DS-curriculum-design-master/5.银行业务
--- The C compiler identification is AppleClang 10.0.0.10001044
--- The CXX compiler identification is AppleClang 10.0.0.10001044
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/5.银行业务"
+-- The C compiler identification is AppleClang 10.0.1.10010046
+-- The CXX compiler identification is AppleClang 10.0.1.10010046
 -- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc
 -- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc -- works
 -- Detecting C compiler ABI info
@@ -17,4 +17,4 @@ Identifying the OS...
 This is MacOS.
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/apple/Downloads/DS-curriculum-design-master/5.银行业务/cmake-build-debug
+-- Build files have been written to: /Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/5.银行业务/cmake-build-debug

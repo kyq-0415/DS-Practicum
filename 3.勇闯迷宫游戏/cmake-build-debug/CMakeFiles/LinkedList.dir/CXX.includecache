@@ -6,3 +6,15 @@
 
 #IncludeRegexTransform: 
 
+../include/utils.h
+iostream
+-
+
+/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/3.勇闯迷宫游戏/src/main.cpp
+utils.h
+-
+string
+-
+
+/Users/jajamoa/Desktop/School Work/数据结构课程设计/ds project/3.勇闯迷宫游戏/src/utils.cpp
+

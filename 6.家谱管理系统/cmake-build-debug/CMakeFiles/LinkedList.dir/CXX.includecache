@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/apple/Downloads/DS-curriculum-design-master/6.家谱管理系统/include/ljj_Tree.h
+iostream
+-
+string
+-
+../include/ljj_Vector.h
+/Users/apple/Downloads/DS-curriculum-design-master/6.家谱管理系统/include/ljj_Vector.h
+
+/Users/apple/Downloads/DS-curriculum-design-master/6.家谱管理系统/include/ljj_Vector.h
+iostream
+-
+
+/Users/apple/Downloads/DS-curriculum-design-master/6.家谱管理系统/src/main.cpp
+random
+-
+algorithm
+-
+iomanip
+-
+string
+-
+../include/ljj_Vector.h
+/Users/apple/Downloads/DS-curriculum-design-master/6.家谱管理系统/include/ljj_Vector.h
+../include/ljj_Tree.h
+/Users/apple/Downloads/DS-curriculum-design-master/6.家谱管理系统/include/ljj_Tree.h
+

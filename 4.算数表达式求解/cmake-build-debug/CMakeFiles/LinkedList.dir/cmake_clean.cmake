@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LinkedList.dir/src/ljj_LinkedList.cpp.o"
+  "CMakeFiles/LinkedList.dir/src/ljj_Queue.cpp.o"
   "CMakeFiles/LinkedList.dir/src/ljj_Stack.cpp.o"
   "CMakeFiles/LinkedList.dir/src/main.cpp.o"
   "CMakeFiles/LinkedList.dir/src/utils.cpp.o"

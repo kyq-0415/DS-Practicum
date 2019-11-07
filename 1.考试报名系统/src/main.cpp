@@ -1,5 +1,6 @@
 #include<utils.h>
 #include<string>
+#include<sstream>
 #include"../include/ljj_LinkedList.h"
 using namespace std;
 
@@ -7,6 +8,7 @@ class datanode{
 public:
     bool avail=true;
     int id, age;
+    string s_id, s_age;     //should be integer
     string name, cat, gender;
 
     int pdata() {
@@ -17,10 +19,23 @@ public:
 
 datanode get_info(){
     datanode temp;
-    cin >> temp.id >> temp.name >> temp.gender >> temp.age >> temp.cat;
-    if (!(temp.id && temp.name.length() && temp.gender.length() && temp.age && temp.cat.length())) {
-        cout << "Invalid Inputs！" << endl;
+    cin >> temp.s_id >> temp.name >> temp.gender >> temp.s_age >> temp.cat;
+    stringstream s1(temp.s_id), s2(temp.s_age);
+
+    if (!(temp.s_id.length() && temp.name.length() && temp.gender.length() && temp.s_age.length() && temp.cat.length())) {
+        cerr << "Invalid Inputs！Incomplete information!!" << endl;
         temp.avail=false;
+        return temp;
+    }
+    if (!(s1>>temp.id)) {
+        cerr << "Invalid Inputs！'" << temp.s_id << "' should be an integer! " << endl;
+        temp.avail=false;
+        return temp;
+    }
+    if (!(s2>>temp.age)) {
+        cerr << "Invalid Inputs！'" << temp.s_age << "' should be an integer! " << endl;
+        temp.avail=false;
+        return temp;
     }
     //temp.pdata(); //for test only
     return temp;
@@ -35,49 +50,53 @@ int main(){
     list<datanode> info_list;
     datanode temp;
     int init_num;
-    cout << "首先请建立考生信息系统！" << endl << "请输入考生人数：";
+    cout << "First of all, please establish the candidate information system! " << endl << "Please enter the number of candidates: ";
     cin >> init_num;
-    cout << "请依次输入考生的考号，姓名，性别，年龄及报考类别！" << endl;
+    cout << "Please enter candidate's ID, Name, Gender, Age and Examination in order! " << endl;
     for (int i=0;i<init_num;++i) {
         temp=get_info();
         if (temp.avail) info_list.push_back(temp);
-        else return 0;
+        else --i;
         //info_list.plist(); //for test only
     }
 
     int op;
     while (true) {
-        cout << "请选择您要进行的操作（1为插入，2为删除，3为查找，4为修改，5为统计，0为取消操作）" << endl
-        << "请选择您要进行的操作:";
+        cout << endl << "Please select operation(1-Insert, 2-Delete，3-Search, 4-Modify, 5-Statistics, 0-EXIT)" << endl
+        << "Please select operation: ";
         cin >> op;
-        if (op>5 || op==0) continue;
+        if (op>5) {
+            cerr << "Invaild Selection, please enter aa number from 0 to 5! " << endl;
+            continue;
+        }
+        if (op==0) return 0;
         if (op==1) {
             int pos;
-            cout<<"请输入您要插入的考生的位置：";
+            cout<<"Please enter the pos to insert: ";
             cin >> pos;
-            cout << "请依次输入插入考生的考号，姓名，性别，年龄及报考类别！" << endl;
+            cout << "Please enter candidate's ID, Name, Gender, Age and Examination in order! " << endl;
             temp=get_info();
             if (temp.avail) info_list.insert(pos-2,temp);
-            else return 0;
+            else continue;
             //info_list.plist(); //for test only
         }
         if (op==2) {
             int id;
-            cout<<"请输入要删除的考生的考号：";
+            cout<<"Please enter the candidate's ID to Delete: ";
             cin >> id;
             info_list.del_by_id(id);
         }
         if (op==3) {
             int id;
-            cout<<"请输入要查找的考生的考号：";
+            cout<<"Please enter the candidate's ID to Search: ";
             cin >> id;
             info_list.find_by_id(id);
         }
         if (op==4) {
             int id;
-            cout<<"请输入要修改的考生的考号：";
+            cout<<"Please enter the candidate's ID to modify: ";
             cin >> id;
-            cout << "请依次输入修改考生的考号，姓名，性别，年龄及报考类别！" << endl;
+            cout << "Please enter candidate's ID, Name, Gender, Age and Examination in order! " << endl;
             temp = get_info();
             info_list.modify_by_id(id, temp);
         }

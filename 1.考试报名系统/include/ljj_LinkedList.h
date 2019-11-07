@@ -1,6 +1,8 @@
 #pragma once
 #include<iostream>
 
+using std::cerr;
+
 template <class T> struct __listNode {
     __listNode<T>* prev;
     __listNode<T>* next;
@@ -99,7 +101,7 @@ template <class T>
 int list <T>::del(int pos) {
     link_type p = loc(pos);
     if (p==NULL) {
-        std::cout << "Error: Out of range!" << std::endl;
+        cerr << "Error: Out of range!" << std::endl;
         return 1;
     }
     __del(p);
@@ -110,7 +112,7 @@ template <class T>
 int list <T>::del_by_id(int id) {
     link_type p = loc_by_id(id);
     if (p==NULL) {
-        std::cout << "Error: ID not Found!" << std::endl;
+        cerr << "Error: ID not Found!" << std::endl;
         return 1;
     }
     __del(p);
@@ -121,7 +123,7 @@ template <class T>
 int list <T>::insert(int pos, const T &x) {
     link_type p = loc(pos);
     if (p==NULL) {
-        std::cout << "Error: Out of range!" << std::endl;
+        cerr << "Error: Out of range!" << std::endl;
         return 1;
     }
     __insert(p, x);
@@ -132,7 +134,7 @@ template <class T>
 int list <T>::modify(int pos, const T &x) {
     link_type p = loc(pos);
     if (p==NULL) {
-        std::cout << "Error: Out of range!" << std::endl;
+        cerr << "Error: Out of range!" << std::endl;
         return 1;
     }
     p->data=x;
@@ -143,7 +145,7 @@ template <class T>
 int list <T>::modify_by_id(int id, const T &x) {
     link_type p = loc_by_id(id);
     if (p==NULL) {
-        std::cout << "Error: ID not Found!" << std::endl;
+        cerr << "Error: ID not Found!" << std::endl;
         return 1;
     }
     p->data=x;
@@ -154,7 +156,7 @@ template <class T>
 int list <T>::find_by_id(int id) {
     link_type p = loc_by_id(id);
     if (p==NULL) {
-        std::cout << "Error: ID not Found!" << std::endl;
+        cerr << "Error: ID not Found!" << std::endl;
         return 1;
     }
     p->data.pdata();

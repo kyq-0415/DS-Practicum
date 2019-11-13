@@ -63,6 +63,7 @@ int weektime[6][5]={{0,0,0,0,0},
 
 bool avai[6][5];
 int table[15][15];
+int atleast[1000];
 
 void output(){
     for (int i=1; i<=maxSem; ++i) {
@@ -121,8 +122,9 @@ int topoSearch(int sem, int count){
 
     for (int i=0; i<courses.size(); ++i)
         if (courses[i].Semester==0 || courses[i].Semester==sem)
-        if (ind[i]==0 && !used[i]) {
-            for (int j=0; j<nex[i].size(); ++j) --ind[nex[i][j]];
+        if (ind[i]==0 && !used[i] && sem>=atleast[i]) {
+            int tempLeast[1000];
+            for (int j=0; j<nex[i].size(); ++j) --ind[nex[i][j]], tempLeast[nex[i][j]]=atleast[nex[i][j]], atleast[nex[i][j]]=sem+1;
             used[i] = true; curTotalHours+=courses[i].hours; hours[sem]+=courses[i].hours;
             semCount[sem]-=(courses[i].Semester==sem)?1:0;
             topoOrder[sem].push_back(courses[i]);
@@ -130,7 +132,7 @@ int topoSearch(int sem, int count){
             used[i] = false; curTotalHours-=courses[i].hours; hours[sem]-=courses[i].hours;
             semCount[sem]+=(courses[i].Semester==sem)?1:0;
             topoOrder[sem].Delete(topoOrder[sem].size() - 1);
-            for (int j=0; j<nex[i].size(); ++j) ++ind[nex[i][j]];
+            for (int j=0; j<nex[i].size(); ++j) ++ind[nex[i][j]], atleast[nex[i][j]]=tempLeast[nex[i][j]];
         }
     if (semCount[sem]==0) topoSearch(sem+1, count);
     return 0;

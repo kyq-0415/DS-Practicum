@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/utils.h
+iostream
+-
+
+/Users/jajamoa/Desktop/ds project/1.考试报名系统/src/main.cpp
+utils.h
+-
+
+/Users/jajamoa/Desktop/ds project/1.考试报名系统/src/utils.cpp
+
